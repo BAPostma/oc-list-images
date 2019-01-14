@@ -1,0 +1,24 @@
+{
+  "name": "openshift-list-container-images",
+  "version": "1.0.0",
+  "description": "Lists all base-images of the containers that are running inside your pods. Enables quick security reviews.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BAPostma/oc-list-images.git"
+  },
+  "author": "Barry Postma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BAPostma/oc-list-images/issues"
+  },
+  "homepage": "https://github.com/BAPostma/oc-list-images#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "openshift-rest-client": "^1.6.2"
+  }
+}

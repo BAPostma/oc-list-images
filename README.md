@@ -20,4 +20,8 @@ or using node
 ~$ npm start
 ```
 
-appned `--json` to receive a JSON output at the end.
+append `--json` to receive a JSON output at the end.
+
+### Output
+The following screenshot is an example of the produced output.  
+![Screenshot](/screenshot.png?raw=true)
